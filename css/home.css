@@ -1,0 +1,298 @@
+body{
+    margin: 0px;
+    font-size: 14px;
+    line-height: 24px;
+    color: #777;
+}
+
+.container{
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.nav-bar{
+    float: right;
+    background-color: #ffdd00;
+    width: 100%;
+}
+
+.nav-bar .container {
+    margin-left: 12%;
+    margin-right: 12%
+}
+
+.nav-bar span.bar{
+    padding-left : 10px;
+}
+
+.contact-div{
+    width: 58%;
+    margin-top: 40px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+}
+
+.social{
+    margin-right: 6px;
+    margin-left: 10px;
+}
+
+.nav-bar .social-icon{
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    margin: 14px 0;
+    margin-left: 6px;
+    margin-right: 10px;
+    transform: rotate(45deg);
+    text-align: center;
+}
+
+.yellow .social-icon a {
+    border: 1px solid #222;
+    color: #222;
+}
+
+.social-icons .yellow .social-icon{
+
+}
+
+.col-sm-12 .no-padding{
+    padding-left: 0px;
+    padding-right:0px;
+}
+.social-icon a{
+    display: block;
+    width: 100%;
+    height: 100%;
+    border: 1px solid #fff;
+    font-size: 14px;
+    color: #fff;    
+}
+
+.float-right{
+    float: right;
+}
+
+.nav-bar a.nav-links {
+    float: left;
+    font-size: 14px;
+    color: #222;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    line-height: 58px;
+    font-weight: 600;
+    line-height: 24px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.main-nav a{
+    float: left;
+    font-size: 17px;
+    color: #222;
+    text-align: center;
+    padding: 24px 24px;
+    text-decoration: none;
+    line-height: 58px;
+    font-weight: 300;
+    line-height: 24px;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.main-header{
+    background: #f8f8f8
+}
+
+.grid-content-div{
+    margin-left: 15%;
+    margin-right: 15%;
+    padding-top: 72px;
+}
+
+.grid-content-div hr{
+    border-top: 2px solid #002b5e;
+    width: 154px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.grid-content-div span.heading-support-text{
+    font-size: 18px;
+    color: #777;
+}
+
+.grid-content-div .feature-margin{
+    margin-bottom : 54px;
+}
+
+.grid-content-div p.feature-heading{
+    font-size: 24px;
+    color : black;
+}
+
+.main-grid p.feature-block-heading{
+    font-size: 18px;
+    font-weight: 700;
+    color : black;
+}
+
+.main-header .main-nav {
+    text-transform: uppercase;
+    font-weight: 400;
+}
+
+.search-header{
+    position: relative;
+    margin-top: 20px;
+    width : 350px;
+}
+
+.banner-img{
+    width: 100%;
+    background-image: url("./taxi-customer-service-banner_1815267.jpg");
+    height: 580px;
+    background-color: purple;
+    background-position: center;
+
+}
+
+.search-header .nav-submit{
+    width: 44px;
+    height: 38px;
+    border-radius: 0 5px 5px 0;
+    background: #ffdd00;
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding-right: 0;
+    padding-left: 0;
+    text-align: center;
+
+}
+
+.white-background{
+    background-color: white;
+}
+
+.nav-search-field{
+    height: 34px;
+    border-radius: 5px;
+    width: 100%;
+    background: none;
+    border: 1px solid #d3d3d3;
+}
+.nav-margin{
+    margin-left: 130px
+}
+
+.main-grid{
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.main-grid .grid-decoration{
+    border: 2px solid #ffdd00;
+    padding: 26px 16px;
+    padding-left: 49px;
+    margin-left: 49px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+
+.main-grid .service .icon{
+    border: 2px solid #ffdd00;
+    background: #fff;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    float: left;
+    padding: 3px;
+    font-size: 24px;
+    color: #222;
+    margin-top: 33px;
+    margin-left: 20px;
+    transform: rotate(45deg)
+}
+
+.main-grid .service .inner{
+    background: #ffdd00;
+    width: 100%;
+    height: 100%;
+    line-height: 50px;
+}
+ 
+.main-grid .service .inner i {
+    transform: rotate(-45deg);
+}
+
+img.logo{
+    height: 50px;
+    padding-top: 34px;
+    padding-bottom: 35px;
+    float: right;
+}
+
+.small-round{
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    line-height: 36px;
+    font-size: 18px;
+    border: 2px solid #002b5e;
+    color: #002b5e;
+    border-radius: 100%;
+    text-align: center;
+    vertical-align: middle;
+    margin-right: 20px;
+    -webkit-transition: .25s;
+    -moz-transition: .25s;
+    -o-transition: .25s;
+    -ms-transition: .25s;
+    transition: .25s;
+}
+
+.footer{
+    position: relative;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 30%;
+    background-color: #002B5E;
+    color: white;
+    text-align: center;
+}
+
+.col-sm-12{
+    display: inline-block;
+    width: 100%;
+    /* padding-left: 15px;
+    padding-right: 15px; */
+}
+
+.col-sm-4{
+    display: inline-block;
+    width: 25%;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.col-sm-8{
+    display: inline-block;
+    width: 75%;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.col-sm-3{
+    display: inline-block;
+    width : 30%;
+    padding-left: 15px;
+    padding-right: 15px;
+}
